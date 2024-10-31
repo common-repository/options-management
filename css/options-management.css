@@ -1,0 +1,60 @@
+table.form-table tbody{
+    display: flex;
+    flex-direction: column;
+}
+
+table.form-table > tbody > tr{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #ccc ;
+}
+
+table.form-table input[type=text]{
+    width: 100%;
+    background: #fff !important;
+}
+
+table.form-table table{
+    padding: 10px;
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+table.form-table table tbody{
+    display: flex;
+    flex-direction: column;
+}
+
+table.form-table table tr{
+    display: inline-flex;
+    flex-direction: column;
+}
+
+table.form-table table tr.row{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+table.form-table table tr.row td.label{
+    flex: 2;
+}
+
+table.form-table table tr.row td.input {
+    flex: 2;
+}
+
+table.form-table td.action {
+    align-items: flex-start;
+}
+
+table.form-table td.action button{
+    align-items: center;
+    display: flex;
+}
+
+
+
+
+
